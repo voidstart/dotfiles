@@ -120,3 +120,5 @@ export LANG=en_US.UTF-8
 export RBENV_ROOT=/usr/local/var/rbenv
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+# mac air: mysql 5.1 64bit installation (from oracle image)
+export PATH=$PATH:/usr/local/mysql/bin
