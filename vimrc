@@ -19,6 +19,14 @@ call vundle#rc()
 " required! 
 Bundle 'gmarik/vundle'
 
+" vim snips
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+
+" Optional:
+Bundle "honza/vim-snippets"
+
 
 
 
