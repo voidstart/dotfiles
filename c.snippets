@@ -1,0 +1,140 @@
+# main()
+# #include <...>
+snippet inc
+	#include <${1:stdio}>${2}
+# #include "..."
+snippet Inc
+	#include "${1:`Filename("$1.h")`}"${2}
+# #include ""
+snippet incc
+	#include "${1:}.h"${2}
+# #ifndef ... #define ... #endif
+snippet Def
+	#ifndef $1
+	#define ${1:SYMBOL} ${2:value}
+	#endif${3}
+snippet def
+	#define 
+snippet ifdef
+	#ifdef ${1:FOO}
+		${2:#define }
+	#endif
+snippet #if
+	#if ${1:FOO}
+		${2}
+	#endif
+# Header Include-Guard
+# (the randomizer code is taken directly from TextMate; it could probably be
+# cleaner, I don't know how to do it in vim script)
+snippet once
+	#ifndef ${1:`toupper(Filename('', 'UNTITLED').'_H')`}
+	#define $1
+
+	${2}
+
+	#endif /* end of include guard: $1 */
+# If Condition
+snippet if
+	if (${1:/* condition */}) 
+	{
+		${2:/* code */}
+	}
+snippet el
+	else 
+	{
+		${1}
+	}
+# Tertiary conditional
+snippet t
+	${1:/* condition */} ? ${2:a} : ${3:b}
+# Do While Loop
+snippet do
+	do {
+		${2:/* code */}
+	} while (${1:/* condition */});
+# While Loop
+snippet wh
+	while (${1:/* condition */}) {
+		${2:/* code */}
+	}
+# Custom For Loop
+snippet forr
+	for (${1:i} = ${2:0}; ${3:$1 < 10}; $1${4:++})
+	{
+		${5:/* code */}
+	}
+# Function
+snippet fun
+	${1:void} ${2:function_name}(${3})
+	{
+		${4:/* code */}
+	}
+# Function Declaration
+snippet fund
+	${1:void} ${2:function_name}(${3});${4}
+# Typedef
+snippet tpd
+	typedef ${1:int} ${2:MyCustomType};${3}
+# Struct
+snippet st
+	struct ${1:`Filename('$1_t', 'name')`} {
+		${2:/* data */}
+	}${3: /* optional variable list */};${4}
+# Typedef struct
+snippet tds
+	typedef struct ${2:_$1 }{
+		${3:/* data */}
+	} ${1:`Filename('$1_t', 'name')`};
+# Typdef enum
+snippet tde
+	typedef enum {
+		${1:/* data */}
+	} ${2:foo};
+# printf
+# unfortunately version this isn't as nice as TextMates's, given the lack of a
+# dynamic `...`
+snippet cp
+	/* Copyright 2012<GDC Tech> wei.wang@gdc-tech.com */
+snippet pd
+	printf("Debug: ${1:%s}\n"${2});${3}
+# another debug printf: pp for print progress
+snippet pk
+	printf("\e[1;32m: %s : ${1:message} ;vim    %s +\e[1;33m%d\e[0m\n", __PRETTY_FUNCTION__,  __FILE__, __LINE__ );
+# another debug printf: pp for print progress
+snippet pp
+	printf("At: ${1:%s} of %s:%d\n", ${2}, __FILE__, __LINE__);${3}
+# debug printf
+snippet dpr
+	printf("GDC_DEBUG at: %s:%d >> ${1:%s}\n", __FILE__, __LINE__, ${2});${3}
+# color printf
+snippet cpr
+	printf("\e[1;37m\e[41mGDC_DEBUG\e[0m:${1}\n");
+# boolean string
+snippet bs
+	?"true":"false"${1}
+# gdb
+snippet gdb
+	if(gdb)
+	{
+		${1}
+	}
+# fprintf (again, this isn't as nice as TextMate's version, but it works)
+snippet fpr
+	fprintf(${1:stderr}, "${2:%s}\n"${3});${4}
+snippet .
+	[${1}]${2}
+snippet un
+	unsigned
+snippet byte
+	unsigned char*
+snippet defdbg
+	#define EMBD_BREAK asm volatile ("int3;")
+snippet dbg
+	EMBD_BREAK;
+snippet t1
+	timespec ts1; clock_gettime(CLOCK_REALTIME,&ts1);
+snippet t2
+	timespec ts2; clock_gettime(CLOCK_REALTIME,&ts2);
+snippet td
+	printf(":\e[1;33m 'spent time: %d s %d ns'\e[0;34m in '%s'\e[0;30m ; vim \e[0;32m %s +%d\e[0m\n",
+	ts2.tv_sec-ts1.tv_sec, ts2.tv_nsec-ts1.tv_nsec,__PRETTY_FUNCTION__,__FILE__,__LINE__);
