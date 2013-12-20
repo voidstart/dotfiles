@@ -1,0 +1,4 @@
+Vimperator
+=
+- multiple hint (plugin). Needs _libly.js .
+- save link via hint. ;S (builtin)
