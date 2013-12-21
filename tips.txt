@@ -31,3 +31,9 @@ Sublime Text 2
 Preivew
 =
 - Scrolls: <space>/<shift-space>
+- Half page scroll: unsolved. Workaround: faster scroll speed for mouse.
+
+
+OSX
+=
+-
