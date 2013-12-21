@@ -2,14 +2,18 @@ Vimperator firefox
 =
 - multiple hint (builtin). No need _libly.js . Key: ;F
 - save link via hint. ;S (builtin)
-- :open selection. Use <Tab>.
+- :open . Selection in results, use <Tab>.
 - bookmarks. Just use :open.
 - :restart  . restart firefox.
 - tab next/prev .  <C-n>/<C-p>
 - change hint font size:
     a. dynamicly: :hi Hint::after -append font-size: 20pt;
     b. save the setting: :mkvimperatorrc
+- <b>: search Tabs (when you have too many tabs/buffers)
 
+Vimium Chrome
+=
+- <gu>  Go up level in URL
 
 
 Sublime Text 2
@@ -20,3 +24,4 @@ Sublime Text 2
   a bunch of shortcuts such as <Ctrl-E> which was "End of line" 
   like Emacs.
 - save settings to external file:
+- auto completion: <Ctrl-Space>
