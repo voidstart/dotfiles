@@ -36,4 +36,8 @@ Preivew
 
 OSX
 =
--
+- Disable Options Codes (The greek letters)
+  ref: http://stackoverflow.com/questions/11876485/how-to-disable-typing-special-characters-when-pressing-option-key-in-mac-os-x?lq=1
+  * Emacs under mac terminal: If you're using Emacs in the Mac Terminal, 
+  then in Preferences > Settings > Keyboard, 
+  check "Use option as meta key"
