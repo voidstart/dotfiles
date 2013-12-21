@@ -12,5 +12,8 @@ Blackwidow keyboard mapping
 * Caps: As another ctrl when hold; As Esc when short press;
 * Left ctrl: As "Super" (alt,shift,ctrl,cmd)
 
+- Experimental
+* git commit stuff : map to pad=
+
 
 
