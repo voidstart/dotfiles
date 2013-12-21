@@ -13,7 +13,8 @@ Blackwidow keyboard mapping
 * Left ctrl: As "Super" (alt,shift,ctrl,cmd)
 
 - Experimental
-* git commit stuff : map to pad=
+* git commit -m update: map to pad=
+* git commit -m "<cursor>": map to pad/
 
 
 
