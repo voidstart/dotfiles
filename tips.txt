@@ -10,6 +10,7 @@ Vimperator firefox
     a. dynamicly: :hi Hint::after -append font-size: 20pt;
     b. save the setting: :mkvimperatorrc
 - <b>: search Tabs (when you have too many tabs/buffers)
+- <;y>: copy link via hint
 
 Vimium Chrome
 =
@@ -26,6 +27,7 @@ Sublime Text 2
 - save settings to external file:
 - auto completion: <Ctrl-Space>
 - wrap with html tag: <Ctrl-Shift-w>
+- move left/right/down/up: <Ctrl-f/b/n/p>
 
 
 Preivew
@@ -41,3 +43,8 @@ OSX
   * Emacs under mac terminal: If you're using Emacs in the Mac Terminal, 
   then in Preferences > Settings > Keyboard, 
   check "Use option as meta key"
+  * keyboard layout: Unicode Hex. Seems to have no Option Codes mapping, and as _main_ layout, can replace US/UK,
+  rather than adding more.
+- Sogou Input can choose layout: use the customized disabled layout
+  * Unresolved: shift/ctrl/caps are all poor choices for my setup. shift-left paren, ctrl-mapped to Caps, serves as another Esc.
+  caps: by default only support chinese mode. Current choice: Disable, and default chinese only.
