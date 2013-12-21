@@ -48,3 +48,4 @@ OSX
 - Sogou Input can choose layout: use the customized disabled layout
   * Unresolved: shift/ctrl/caps are all poor choices for my setup. shift-left paren, ctrl-mapped to Caps, serves as another Esc.
   caps: by default only support chinese mode. Current choice: Disable, and default chinese only.
+  * layouts can be created using Ukelele app.
