@@ -1,4 +1,22 @@
-Vimperator
+Vimperator firefox
 =
-- multiple hint (plugin). Needs _libly.js .
+- multiple hint (builtin). No need _libly.js . Key: ;F
 - save link via hint. ;S (builtin)
+- :open selection. Use <Tab>.
+- bookmarks. Just use :open.
+- :restart  . restart firefox.
+- tab next/prev .  <C-n>/<C-p>
+- change hint font size:
+    a. dynamicly: :hi Hint::after -append font-size: 20pt;
+    b. save the setting: :mkvimperatorrc
+
+
+
+Sublime Text 2
+=
+- close html tag . <Ctrl Cmd .>
+- transpose.  <Ctrl t>
+- emmet (zen coding). Great for web development. It overrides
+  a bunch of shortcuts such as <Ctrl-E> which was "End of line" 
+  like Emacs.
+- save settings to external file:

@@ -1,0 +1,16 @@
+Blackwidow keyboard mapping
+=
+
+* F15 to F19 : Firefox, Sublime, Preview (PDF), Chrome, iTerm
+* Eject : Spotlight (OSX Builtin mapping)
+* Keypad: 1 to 6 for tab 1-6; 7,8,9 for slate left/full/right;
+          . for <cmd-tab>, - and + for tab prev/next;
+          * for dictionary; 0 for Terminal.app;
+* F13/F14: Volume down/up
+* Game mode: ON (Function keys are F1 to F12)
+* ESC: for a specific complex task: Layout 2 windows, activate them (slate)
+* Caps: As another ctrl when hold; As Esc when short press;
+* Left ctrl: As "Super" (alt,shift,ctrl,cmd)
+
+
+
