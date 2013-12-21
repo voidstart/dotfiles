@@ -26,3 +26,8 @@ Sublime Text 2
 - save settings to external file:
 - auto completion: <Ctrl-Space>
 - wrap with html tag: <Ctrl-Shift-w>
+
+
+Preivew
+=
+- Scrolls: <space>/<shift-space>
