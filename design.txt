@@ -19,3 +19,10 @@ Esc : via bw -> <super-,>  -> switch input source (Unicode hex/sogou)
 
 <super-f> via service (automator: Global New Finder Window) mapped to : new finder
 <super-n> mapped to Evernote (China/yinxiang.com) : quick note
+
+
+KeyRemapForMac
+==============
+* remap left/right shift to parens ()
+* restore Unicdoe Hex input's option left/right (disabled for no obvious reason)
+* remap left contrl to <hyper>
