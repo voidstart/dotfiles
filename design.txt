@@ -1,28 +1,28 @@
 Blackwidow keyboard mapping
 =
 
-* F15 to F19 : Firefox, Sublime, Preview (PDF), Chrome, iTerm
+* F15 to F19 : Firefox, Sublime, Preview (PDF), Chrome, Safari
 * Eject : Spotlight (OSX Builtin mapping)
 * Keypad: 1 to 6 for tab 1-6; 7,8,9 for slate left/full/right;
           . for <cmd-tab>, - and + for tab prev/next;
-          * for dictionary; 0 for Terminal.app;
+          * for dictionary; 0 for iTerm; pad<enter>: Safari
+          clear: Path Finder
+          * git commit -m update: map to pad=
+          * git commit -m "<cursor>": map to pad/
 * F13/F14: Volume down/up
 * Game mode: ON (Function keys are F1 to F12)
-//* ESC: for a specific complex task: Layout 2 windows, activate them (slate)
-Esc : via bw -> <super-,>  -> switch input source (Unicode hex/sogou)
+* Esc : via bw -> <super-,>  via system -> switch input source (Unicode hex/sogou)
 * Caps: As another ctrl when hold; As Esc when short press;
-* Left ctrl: As "Super" (alt,shift,ctrl,cmd)
-
-- Experimental
-* git commit -m update: map to pad=
-* git commit -m "<cursor>": map to pad/
 
 <super-f> via service (automator: Global New Finder Window) mapped to : new finder
-<super-n> mapped to Evernote (China/yinxiang.com) : quick note
-
+<super-n> : Evernote (China/yinxiang.com) : quick note
+<super-l> : activate Safari
+<super-j> : Activate QQ
+<cmd-space> : Activate iTerm
+<super-space> : Alfred 2
 
 KeyRemapForMac
 ==============
 * remap left/right shift to parens ()
 * restore Unicdoe Hex input's option left/right (disabled for no obvious reason)
-* remap left contrl to <hyper>
+* remap left contrl to <hyper>; "Super" (alt,shift,ctrl,cmd)

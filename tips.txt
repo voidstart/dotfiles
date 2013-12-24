@@ -24,10 +24,14 @@ Sublime Text 2
 - emmet (zen coding). Great for web development. It overrides
   a bunch of shortcuts such as <Ctrl-E> which was "End of line" 
   like Emacs.
+  * <Cmd-Shift-k> rename tag
+- package: expand selection to quotes. map: <ctrl-'>
 - save settings to external file:
 - auto completion: <Ctrl-Space>
 - wrap with html tag: <Ctrl-Shift-w>
-- move left/right/down/up: <Ctrl-f/b/n/p>
+- move cursor left/right/down/up: <Ctrl-f/b/n/p>
+- move line(s): <Cmd-Ctrl-Up/Down>
+
 
 
 Preivew
