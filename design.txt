@@ -1,7 +1,7 @@
 Blackwidow keyboard mapping
 =
 
-* F15 to F19 : Firefox, Sublime, Preview (PDF), Chrome, Safari
+* F15 to F19 : Firefox, Sublime, Preview (PDF), Safari, iTerm
 * Eject : Spotlight (OSX Builtin mapping)
 * Keypad: 1 to 6 for tab 1-6; 7,8,9 for slate left/full/right;
           . for <cmd-tab>, - and + for tab prev/next;
