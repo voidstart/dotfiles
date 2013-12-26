@@ -31,6 +31,8 @@ Sublime Text 2
 - wrap with html tag: <Ctrl-Shift-w>
 - move cursor left/right/down/up: <Ctrl-f/b/n/p>
 - move line(s): <Cmd-Ctrl-Up/Down>
+- git plugin: git_command for path of git setting. Git.sublime-settings goes
+    into the "User" pacakge. Just <browse packages> from menu.
 
 
 
